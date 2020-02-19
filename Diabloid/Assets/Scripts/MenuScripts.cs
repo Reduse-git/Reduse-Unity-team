@@ -26,6 +26,10 @@ public class MenuScripts : MonoBehaviour
     {
         SceneManager.LoadScene("SceneMenu");
     }
+    public void OnClickCharacters()
+    {
+       // SceneManager.LoadScene("SceneMenu");
+    }
     // Update is called once per frame
     void Update()
     {
