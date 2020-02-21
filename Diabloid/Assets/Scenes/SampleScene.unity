@@ -160,7 +160,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &75934549
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 75934548}
   player: {fileID: 0}
-  speed: 0.2
+  speed: 0.6
   hp: 5
 --- !u!1 &434967585
 GameObject:
@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 975026387}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -664,7 +664,7 @@ Rigidbody2D:
   m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!58 &975026383
 CircleCollider2D:
   m_ObjectHideFlags: 0
