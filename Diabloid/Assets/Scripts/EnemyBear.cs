@@ -48,6 +48,7 @@ public class EnemyBear : MonoBehaviour
             rb.Sleep();
             Destroy(bear.gameObject, 0.1f);
             alive = false;
+            
         }
         
     }
